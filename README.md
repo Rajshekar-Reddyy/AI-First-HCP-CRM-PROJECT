@@ -242,3 +242,9 @@ Schedule a reminder for next Tuesday at 9 AM to send Dr. Mehta the renal safety 
 - Run Uvicorn behind a reverse proxy or ASGI process manager.
 - Keep MySQL `utf8mb4` collation for clinical text and notes.
 - Configure CORS to the deployed frontend origin only.
+
+##Project Output
+<img width="1897" height="893" alt="image" src="https://github.com/user-attachments/assets/844ee48e-cdb9-415f-a2b4-4aa47acd99f8" />
+
+<img width="1896" height="903" alt="image" src="https://github.com/user-attachments/assets/ab4d1061-695a-4ed7-b89d-f1394493500f" />
+
