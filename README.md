@@ -194,7 +194,7 @@ Start both servers, then send a message like:
 ### Tool 1: Log Interaction
 
 ```text
-Log a hospital visit with Dr. Priya Mehta at Apollo Hospital, cardiology. We met today at 10:30 with nurse Anand. Discussed CardioMet XR, shared the adherence brochure, no samples. She was positive and asked for renal safety data. Outcome: interested in starting with eligible patients. Follow up next Tuesday with clinical paper.
+Log a hospital visit with Dr. Rajshekar at Apollo Hospital, cardiology. We met today 2026-10-07 at 10:30 with nurse Anand. Discussed CardioMet XR, shared the adherence brochure, no samples. She was positive and asked for renal safety data. Outcome: interested in starting with eligible patients. Follow up next Tuesday with clinical paper.
 ```
 
 The assistant selects `log_interaction`, writes the database record, streams a response, updates Redux, and populates the read-only form.
@@ -202,7 +202,7 @@ The assistant selects `log_interaction`, writes the database record, streams a r
 ### Tool 2: Edit Interaction
 
 ```text
-Change the sentiment to neutral and add to notes that Dr. Mehta needs formulary approval before adoption.
+Change the sentiment to negative and add to notes that Dr. Mehta needs formulary approval before adoption.
 ```
 
 ### Tool 3: Search HCP History
