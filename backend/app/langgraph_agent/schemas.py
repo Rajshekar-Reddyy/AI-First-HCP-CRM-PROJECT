@@ -19,8 +19,10 @@ class ToolSelection(BaseModel):
     """Validated model output for LangGraph tool routing."""
 
     tool: ToolName
-    arguments: dict[str, Any] = Field(default_factory=dict)
-    reason: str = Field(min_length=3, max_length=500)
+        arguments: dict[str, Any] = Field(default_factory=dict)
+        reason: str = Field(min_length=3, max_length=600)
+
+    
 
 
 class ExtractedInteractionPayload(BaseModel):
